@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <script>
+var data=200;
+        // local variable
+
+        function abc() {
+            var x = 10;//local variable  
+            document.write("Variable value: " +data);
+            //calling inside function
+        }
+        abc();
+        document.write("Variable value: " + x);//calling outside function
+
+
+// global variable
+        // var data=200;//gloabal variable
+        function a(){
+        // document.writeln("variable "+x);
+        console.log(x);
+        }
+        function b(){
+        document.writeln(data);
+        }
+        a();//calling JavaScript function
+        b();
+    
+
+    </script>
+</body>
+
+</html>

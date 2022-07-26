@@ -1,0 +1,21 @@
+{
+    "employee": [
+      {
+        "id": 1,
+        "name": "AKSHATA BABY",
+        "office": "MEPZ",
+        "position":"HR",
+        "salary":"200000"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
